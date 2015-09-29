@@ -1,7 +1,7 @@
 name=Serial Device Discovery
 class=org.surfthing.service.serial.DiscoveryService
 interval=10000
-enabled=true
+enabled=false
 
 mqtt.integration=true
 mqtt.sensor.publisher.interval=5000

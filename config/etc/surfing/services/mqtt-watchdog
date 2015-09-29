@@ -2,4 +2,5 @@ name=MQTT Sensor Publisher
 class=org.surfthing.service.mqtt.WatchDog
 interval=60000
 enabled=true
-mqtt.server=tcp://iot.eclipse.org:1883
+mqtt.server=tcp://192.168.0.103:1883
+
