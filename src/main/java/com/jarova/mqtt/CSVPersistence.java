@@ -21,7 +21,6 @@ public class CSVPersistence extends Service {
     
     FileWriter writer;
     BufferedWriter bWriter;
-    private static CSVPersistence instance = new CSVPersistence();
 
 
     public void saveLog(String message) {
