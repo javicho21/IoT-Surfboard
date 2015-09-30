@@ -30,7 +30,7 @@ public class Kernel {
 
     @Inject
     public Camera camera;
-    
+
     //para uso em Java SE
     public static String DEVICE_NAME = "Surfing IoT Gateway";
     public static String APP_NAME = "Surfing IoT Gateway";
@@ -88,6 +88,7 @@ public class Kernel {
     public static void main(String[] args) {
         //fazer processo de restart automático (serviço?)
         //fazer processo de update automático (serviço?)
+        System.out.println("Starting...");
         startWeld();
         //Kernel k = new Kernel();
         //k.startWeld();
