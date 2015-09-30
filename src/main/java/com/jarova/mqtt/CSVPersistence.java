@@ -25,6 +25,7 @@ public class CSVPersistence extends Service {
 
     public void saveLog(String message) {
         try {
+            System.out.println("Saving " + message + " in to " +TEXT_FILENAME);
             bWriter.write(message);
             bWriter.flush();
         } catch (IOException ex) {
